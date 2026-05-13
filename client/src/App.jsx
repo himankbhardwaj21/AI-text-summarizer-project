@@ -30,7 +30,7 @@ if (file) {
 }
 
 const response = await axios.post(
-  "http://localhost:5000/summarize",
+  "https://ai-text-summarizer-project-backend.onrender.com/summarize",
   formData,
   {
     headers: {
